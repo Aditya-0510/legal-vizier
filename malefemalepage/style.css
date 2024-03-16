@@ -1,5 +1,7 @@
 body{
     background: #ffffff;
+    transition: all 2s ease;
+
 }
 
 .cont{
