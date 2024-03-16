@@ -1,10 +1,10 @@
 body{
     background: #ffffff;
     transition: all 2s ease;
-
 }
 
 .cont{
+    display: flex;
     position: relative;
     top: 0;
     font-size: 80px;
@@ -15,7 +15,7 @@ body{
 }
 
 
-input[type="checkbox"]{
+input[id="gender"]{
     position: relative;
     left: 35%;
 
@@ -28,7 +28,7 @@ input[type="checkbox"]{
     transition: all 0.5s;
 
 }
-input:checked[type="checkbox"]{
+input:checked[id="gender"]{
     
     background: #c6c6c6;
     transition: all 0.5s;
@@ -37,7 +37,7 @@ input:checked[type="checkbox"]{
 
 
 }
-input[type="checkbox"]:before{
+input[id="gender"]:before{
     
     content: 'MALE';
 
@@ -68,7 +68,7 @@ input[type="checkbox"]:before{
     
 }
 
-input[type="checkbox"]::after{
+input[id="gender"]::after{
     
     content: 'MALE \00a0 \00a0 \00a0\00a0\00a0 \00a0 \00a0 FEMALE';
 
@@ -96,7 +96,7 @@ input[type="checkbox"]::after{
 
     
 }
-input[type="checkbox"]:checked::after{
+input[id="gender"]:checked::after{
     
     content: 'MALE \00a0 \00a0 \00a0\00a0\00a0 \00a0 \00a0 FEMALE';
 
@@ -124,7 +124,7 @@ input[type="checkbox"]:checked::after{
 
     
 }
-input:checked[type="checkbox"]:before{
+input:checked[id="gender"]:before{
     
     content: 'FEMALE';
     position: absolute;
@@ -150,6 +150,7 @@ input:checked[type="checkbox"]:before{
     width: 98vw;
 }
 .box{
+    transition: color 1s ease,background-image 2s ease;
     color: white;
     padding: 20px;
     border: 2px solid black;
@@ -178,4 +179,82 @@ input:checked[type="checkbox"]:before{
 
 
 
+}
+
+
+/* Light MODE BUTTON */
+
+
+.butcont{
+    /* display: flex;
+    justify-content: end; */
+    position:absolute;
+    top: 0;
+    right: 0;
+
+}
+
+
+input[id="modebutton"]{
+    position: relative;
+
+    width: 120px;
+    height: 60px;
+    border-radius: 40px; 
+    background: #c6c6c6;
+    appearance: none;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+    transition: all 0.5s;
+
+}
+input:checked[id="modebutton"]{
+    
+    background: #c6c6c6;
+    transition: all 0.5s;
+    
+
+
+}
+
+
+
+
+input[id="modebutton"]:before{
+    content: image-set(url('moon.png') 2x) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* background-image: ; */
+    /* background-size: 600px 600px; */
+    
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 60px;
+    height: 60px;
+    transform: scale(1.1) ;
+    border-radius: 50%;
+    background: #000000;
+    transition:all 1s ease;
+
+    
+}
+input:checked[id="modebutton"]:before{
+    
+   
+    content: image-set(url('sun.png') 2x) ;
+
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 60px;
+    height: 60px;
+    transform: translateX(60px) scale(1.1);
+    border-radius: 50%;
+    background: #fffefe;
+    transition:all 1s ease;
+    box-shadow:  0 0 5px rgba(0,0,0,.2);
+
+    
 }
