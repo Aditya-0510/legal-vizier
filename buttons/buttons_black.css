@@ -1,5 +1,5 @@
 body    {margin: 40px;
-    background: #000;
+    background: #0c1018;
 }
 
 .con{
@@ -56,6 +56,10 @@ body    {margin: 40px;
 
 }
 
+.public img{
+    filter:brightness(0.65) ;
+}
+
 .boximg:hover .t{
         top: -50%;
 
@@ -72,7 +76,7 @@ body    {margin: 40px;
 
 }
 .pname{
-    font-size: 80px;
+    font-size: 50px;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
-
