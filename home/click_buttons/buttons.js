@@ -18,7 +18,7 @@ t = document.querySelectorAll(".boximg> .pname")
             // imgs[index].style.boxShadow = "-4px 0px 10px #000000"
             
             setTimeout(()=>{
-                window.location.href = "http://www.google.com";
+                window.location.href = "malefemalepage/index.html";
             },300)
            
         })
