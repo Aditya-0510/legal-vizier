@@ -1,0 +1,133 @@
+body{margin: 40px;
+    /* background: #9e3663; */
+    /* background: #ffffff; */
+    /* background: #FFE6E6; */
+    
+    background-image: linear-gradient(135deg, transparent 0%, transparent 6%,rgba(71, 71, 71,0.04) 6%, rgba(71, 71, 71,0.04) 22%,transparent 22%, transparent 100%),linear-gradient(45deg, transparent 0%, transparent 20%,rgba(71, 71, 71,0.04) 20%, rgba(71, 71, 71,0.04) 47%,transparent 47%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 24%,rgba(71, 71, 71,0.04) 24%, rgba(71, 71, 71,0.04) 62%,transparent 62%, transparent 100%),linear-gradient(45deg, transparent 0%, transparent 73%,rgba(71, 71, 71,0.04) 73%, rgba(71, 71, 71,0.04) 75%,transparent 75%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 10px;
+    
+}
+.h{
+    width: 98vw;
+    text-align: start;
+}
+.con .h{
+
+    font-size: 120px;
+    color: #000000;
+}
+.boximg{
+    margin: 40px;
+    
+    background:  #ad6262;
+    border-radius: 40px;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out ;
+    border: 2px solid rgb(0, 0, 0);
+    width: 85vw;
+    text-align: start;
+    padding: 20px;
+
+    box-shadow:-4px 0px 20px #000000;
+}
+
+.boximg:hover {
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+        
+        
+
+}
+
+.pname{
+    color: rgb(255, 255, 255);
+    font-size: 66px;
+}
+
+
+
+/* Light MODE BUTTON */
+
+
+.butcont{
+    /* display: flex;
+    justify-content: end; */
+    position:absolute;
+    top: 0;
+    right: 0;
+
+}
+
+
+input[id="modebutton"]{
+    position: relative;
+
+    width: 120px;
+    height: 60px;
+    border-radius: 40px; 
+    background: #c6c6c6;
+    appearance: none;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+    transition: all 0.5s;
+
+}
+input:checked[id="modebutton"]{
+    
+    background: #c6c6c6;
+    transition: all 0.5s;
+    
+
+
+}
+
+
+
+
+input[id="modebutton"]:before{
+    content: image-set(url('moon.png') 2x) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* background-image: ; */
+    /* background-size: 600px 600px; */
+    
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 60px;
+    height: 60px;
+    transform: scale(1.1) ;
+    border-radius: 50%;
+    background: #000000;
+    transition:all 1s ease;
+
+    
+}
+input:checked[id="modebutton"]:before{
+    
+   
+    content: image-set(url('sun.png') 2x) ;
+
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 60px;
+    height: 60px;
+    transform: translateX(60px) scale(1.1);
+    border-radius: 50%;
+    background: #fffefe;
+    transition:all 1s ease;
+    box-shadow:  0 0 5px rgba(0,0,0,.2);
+
+    
+}
+
+
