@@ -6,7 +6,7 @@ function change_onclick() {
 
     if (bool == true) {
         document.body.style.backgroundColor =  "#8124b3"
-        document.querySelector(".box").innerHTML=`<div class="h">(MALE) Legal Rights after getting arrested</div>
+        document.querySelector(".box").innerHTML=`<div class="h">Legal Rights after getting arrested</div>
         <div class="bu">Individuals may be arrested by the Police under various circumstances, and if taken into custody outside the Police Station (PS), they must be brought to the Police Station for formal arrest procedures.</div>
         <div class="bu">If a person is arrested under preventive provisions of the law, the Police must release the suspect or detainee after completing the Boundover procedure within 24 hours of their arrest.</div>
         <div class="bu">In cases involving minor offenses punishable by up to 7 years of imprisonment, the Police must consider Section 41A of the Criminal Procedure Code (CrPC). The accused may be released from police custody with instructions to cooperate with further investigation.</div>
@@ -18,7 +18,7 @@ function change_onclick() {
     }
     else{
         document.body.style.backgroundColor ="#0b1763"
-        document.querySelector(".box").innerHTML=`<div class="h">(MALE) Legal Rights after getting arrested</div>
+        document.querySelector(".box").innerHTML=`<div class="h">Legal Rights after getting arrested</div>
         <div class="bu">Individuals may be arrested by the Police under various circumstances, and if taken into custody outside the Police Station (PS), they must be brought to the Police Station for formal arrest procedures.</div>
         <div class="bu">If a person is arrested under preventive provisions of the law, the Police must release the suspect or detainee after completing the Boundover procedure within 24 hours of their arrest.</div>
         <div class="bu">In cases involving minor offenses punishable by up to 7 years of imprisonment, the Police must consider Section 41A of the Criminal Procedure Code (CrPC). The accused may be released from police custody with instructions to cooperate with further investigation.</div>
