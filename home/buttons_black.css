@@ -1,0 +1,261 @@
+
+.bg  img{
+    width: 100%;
+    z-index: 0;
+}
+
+
+
+.boximg img{
+    box-shadow: 2px 2px 15px #000000;
+}
+
+
+body{
+    background: linear-gradient(to right,#d3dbf6,#c2cfff);
+    /* background-image: linear-gradient(216deg, rgba(77, 77, 77,0.05) 0%, rgba(77, 77, 77,0.05) 25%,rgba(42, 42, 42,0.05) 25%, rgba(42, 42, 42,0.05) 38%,rgba(223, 223, 223,0.05) 38%, rgba(223, 223, 223,0.05) 75%,rgba(36, 36, 36,0.05) 75%, rgba(36, 36, 36,0.05) 100%),linear-gradient(44deg, rgba(128, 128, 128,0.05) 0%, rgba(128, 128, 128,0.05) 34%,rgba(212, 212, 212,0.05) 34%, rgba(212, 212, 212,0.05) 57%,rgba(25, 25, 25,0.05) 57%, rgba(25, 25, 25,0.05) 89%,rgba(135, 135, 135,0.05) 89%, rgba(135, 135, 135,0.05) 100%),linear-gradient(241deg, rgba(55, 55, 55,0.05) 0%, rgba(55, 55, 55,0.05) 14%,rgba(209, 209, 209,0.05) 14%, rgba(209, 209, 209,0.05) 60%,rgba(245, 245, 245,0.05) 60%, rgba(245, 245, 245,0.05) 69%,rgba(164, 164, 164,0.05) 69%, rgba(164, 164, 164,0.05) 100%),linear-gradient(249deg, rgba(248, 248, 248,0.05) 0%, rgba(248, 248, 248,0.05) 32%,rgba(148, 148, 148,0.05) 32%, rgba(148, 148, 148,0.05) 35%,rgba(202, 202, 202,0.05) 35%, rgba(202, 202, 202,0.05) 51%,rgba(181, 181, 181,0.05) 51%, rgba(181, 181, 181,0.05) 100%),linear-gradient(92deg, hsl(214,0%,11%),hsl(214,0%,11%)); */
+    background-size: 100vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.maincontainer{
+    position: absolute;
+   left: 0;
+   top: 0;
+}
+.name{
+    margin-left: 70px;
+    width: 500px;
+    padding: 20px;
+
+
+    font-family: 'Times New Roman', Times, serif;
+}
+.name a{
+    text-decoration: none;
+    color:#fed287;
+
+}
+
+.nav{
+
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    gap: 32vw;
+    font-size: 60px;
+    font-weight: 500;
+    
+}
+
+.abc button{
+    padding: 10px 25px;
+    border-radius: 40px;
+    text-decoration: none;
+    border: none;
+    background: #00000000;
+    font-size: 30px;
+    color: white;
+}
+.abc button:hover{
+    background: #70707090;
+    transform: scale(1.05);
+    transition: transform 1s;
+    color:#fed287;
+
+
+}
+.abc {
+    display: flex;
+    gap: 2vw;
+}
+/* cards */
+.buthead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.buthead .t{
+    font-size: 80px;
+    color:#fed287;
+    /* color:#ffc664; */
+}
+.buthead .p{
+    padding: 40px;
+    font-size: 40px;
+    color:#ffefd7;
+    /* color:#000000; */
+
+
+}
+
+.con{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+
+}
+.conlast{
+    justify-content: start;
+
+}
+.lastimg{
+    padding: 0px 60px;
+}
+
+.boximg{
+    border-radius: 40px;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+}
+
+.boximg img{
+    width: 25vw;
+    height: 30vh;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    
+    box-shadow: 2px 2px 15px #ffd001;
+}
+
+.boximg .t{
+    font-size: 25px;
+    width: 23vw;
+    position: relative;
+    top: -50%;
+    left: 20px;
+    color: rgb(255, 255, 255);
+
+    font-weight: 500;
+    visibility: hidden;
+
+}
+
+
+
+
+.boximg:hover {
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+        
+        
+
+}
+
+.boximg:hover .t{
+        top: -60%;
+
+        visibility:visible;
+        transition:all 1.5s ease-in-out,color 0.5s ease;
+        
+
+
+
+}
+.boximg:hover img{
+        filter: brightness(0.25);
+        border: 2px solid black;
+
+}
+.pname{
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    /* color: white; */
+}
+
+
+/* Light MODE BUTTON */
+
+
+.butcont{
+    /* display: flex;
+    justify-content: end; */
+    position:absolute;
+    top: 20px;
+    right: 0;
+
+}
+
+
+input[id="modebutton"]{
+    position: relative;
+
+    width: 120px;
+    height: 60px;
+    border-radius: 40px; 
+    background: #c6c6c6;
+    appearance: none;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+    transition: all 0.5s;
+
+}
+input:checked[id="modebutton"]{
+    
+    background: #c6c6c6;
+    transition: all 0.5s;
+    
+
+
+}
+
+
+
+
+input[id="modebutton"]:before{
+    content: image-set(url('assets/moon.png') 2x) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* background-image: ; */
+    /* background-size: 600px 600px; */
+    
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 60px;
+    height: 60px;
+    transform: scale(1.1) ;
+    border-radius: 50%;
+    background: #000000;
+    transition:all 1s ease;
+
+    
+}
+input:checked[id="modebutton"]:before{
+    
+   
+    content: image-set(url('assets/sun.png') 2x) ;
+
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 60px;
+    height: 60px;
+    transform: translateX(60px) scale(1.1);
+    border-radius: 50%;
+    background: #fffefe;
+    transition:all 1s ease;
+    box-shadow:  0 0 5px rgba(0,0,0,.2);
+
+    
+}
+
+.foot{
+    font-size: 30px;
+    height: 20vh;
+    width: 100%;   
+    color:#fed287;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    bottom: 0;
+}
