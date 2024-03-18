@@ -122,7 +122,7 @@ body{
     /* border: 2px solid black; */
     border-radius: 20px;
     
-    box-shadow: 2px 2px 15px #ffd001;
+    box-shadow: 2px 2px 15px #000000;
 }
 
 .boximg .t{
@@ -137,7 +137,6 @@ body{
     visibility: hidden;
 
 }
-
 
 
 
@@ -164,8 +163,12 @@ body{
         border: 2px solid black;
 
 }
+.obj-con{
+    object-fit: cover;
+}
 .pname{
-    font-size: 80px;
+    width: 25vw;
+    font-size: 60px;
     color: rgb(0, 0, 0);
     /* color: white; */
 }
