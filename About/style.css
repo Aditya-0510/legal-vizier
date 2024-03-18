@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Catamaran&display=swap");
 :root {
   --margin: 110px;
-  --background: #e2e2f5;
+  --background: #B69D74;
   --perspective: 1800px;
   --transition: transform 1s .2s, z-index 0s 0.5s;
   --yellow: #B69D74;
@@ -101,7 +101,7 @@ body .pages {
   top: 50%;
   transform: translateY(-50%);
   perspective: var(--perspective);
-  box-shadow: 0 41px 38px -20px #0a3150;
+  box-shadow: 0 41px 38px -20px #443001;
   max-width: 1300px;
   max-height: 650px;
 }
