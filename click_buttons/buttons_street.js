@@ -18,7 +18,13 @@ t = document.querySelectorAll(".boximg> .pname")
             // imgs[index].style.boxShadow = "-4px 0px 10px #000000"
             
             if(index==0){setTimeout(()=>{
-                window.location.href = "malefemalepage/button_police_mafe.html";
+                window.location.href = "malefemalepage/button_street_mafe_1.html";
+            },300)}
+            if(index==1){setTimeout(()=>{
+                window.location.href = "malefemalepage/button_street_mafe_2.html";
+            },300)}
+            if(index==2){setTimeout(()=>{
+                window.location.href = "malefemalepage/button_street_mafe_3.html";
             },300)}
            
         })
