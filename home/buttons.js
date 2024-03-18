@@ -27,9 +27,34 @@ t = document.querySelectorAll(".boximg> .t")
             images[index].style.border = "5px solid rgb(255, 198, 65)"
             text[index].style.color="rgb(255, 198, 65)"
             t[index].style.color="rgb(255, 198, 65)"
+            if(index==0){
             setTimeout(()=>{
-                window.location.href = "click_buttons/buttons.html";
-            },200)
+                window.location.href = "click_buttons/buttons_police.html";
+            },200)}
+            if(index==1){
+            setTimeout(()=>{
+                window.location.href = "click_buttons/buttons_street.html";
+            },200)}
+            if(index==6){
+            setTimeout(()=>{
+                window.location.href = "click_buttons/button_cyber.html";
+            },200)}
+            if(index==5){
+            setTimeout(()=>{
+                window.location.href = "click_buttons/button_residence.html";
+            },200)}
+            if(index==3){
+            setTimeout(()=>{
+                window.location.href = "click_buttons/button_school.html";
+            },200)}
+            if(index==2){
+            setTimeout(()=>{
+                window.location.href = "click_buttons/buttons_publicspaces.html";
+            },200)}
+            if(index==4){
+            setTimeout(()=>{
+                window.location.href = "click_buttons/buttons_market.html";
+            },200)}
            
         })
 
@@ -81,6 +106,6 @@ function creator(){
 
 }
 function about(){
-    window.location.href = "about/about.html";
+    window.location.href = "About/index.html";
 
 }

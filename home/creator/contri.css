@@ -11,6 +11,7 @@ body{
     width:100%;
     background-color:#1d3054;
     top:0;
+    position: sticky;
 }
 .container{
     height: 100vh;
@@ -40,16 +41,16 @@ body{
 }
 .first{
     font-size: 30px;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
 .subtitle{
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .subsub{
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 .wrapper3{

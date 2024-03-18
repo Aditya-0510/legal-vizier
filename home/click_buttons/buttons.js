@@ -17,9 +17,9 @@ t = document.querySelectorAll(".boximg> .pname")
             imgs[index].style.backgroundColor="#000000";
             // imgs[index].style.boxShadow = "-4px 0px 10px #000000"
             
-            setTimeout(()=>{
-                window.location.href = "malefemalepage/index.html";
-            },300)
+            if(index==0){setTimeout(()=>{
+                window.location.href = "malefemalepage/button_police_mafe.html";
+            },300)}
            
         })
 
