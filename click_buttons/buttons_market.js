@@ -23,7 +23,7 @@ t = document.querySelectorAll(".boximg> .pname")
             if(index==1){setTimeout(()=>{
                 window.location.href = "malefemalepage/button_market_mafe_2.html";
             },300)}
-            if(index==1){setTimeout(()=>{
+            if(index==2){setTimeout(()=>{
                 window.location.href = "malefemalepage/button_market_mafe_3.html";
             },300)}
            
