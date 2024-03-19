@@ -24,7 +24,7 @@ t = document.querySelectorAll(".boximg> .pname")
                 window.location.href = "malefemalepage/button_market_mafe_2.html";
             },300)}
             if(index==1){setTimeout(()=>{
-                window.location.href = "malefemalepage/button_market_mafe_2.html";
+                window.location.href = "malefemalepage/button_market_mafe_3.html";
             },300)}
            
            

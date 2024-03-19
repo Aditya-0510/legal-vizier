@@ -18,19 +18,19 @@ t = document.querySelectorAll(".boximg> .pname")
             // imgs[index].style.boxShadow = "-4px 0px 10px #000000"
             
             if(index==0){setTimeout(()=>{
-                window.location.href = "malefemalepage/button_school_mafe_1.html";
+                window.location.href = "malefemalepage/button_cyber_mafe_1.html";
             },300)}
             if(index==1){setTimeout(()=>{
-                window.location.href = "malefemalepage/button_school_mafe_2.html";
+                window.location.href = "malefemalepage/button_cyber_mafe_2.html";
             },300)}
             if(index==2){setTimeout(()=>{
-                window.location.href = "malefemalepage/button_school_mafe_3.html";
+                window.location.href = "malefemalepage/button_cyber_mafe_3.html";
             },300)}
             if(index==3){setTimeout(()=>{
-                window.location.href = "malefemalepage/button_school_mafe_4.html";
+                window.location.href = "malefemalepage/button_cyber_mafe_4.html";
             },300)}
             if(index==4){setTimeout(()=>{
-                window.location.href = "malefemalepage/button_school_mafe_5.html";
+                window.location.href = "malefemalepage/button_cyber_mafe_5.html";
             },300)}
            
            
