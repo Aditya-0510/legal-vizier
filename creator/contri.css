@@ -70,6 +70,7 @@ body{
     padding: 30px;
 }
 .wrapper1{
+  margin-top: 60vh;
     height: 100px;
     width:1000px;
     border-radius: 20px;
